@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+#header {
+  @apply text-3xl font-bold py-2;
+}
+
+#main-content {
+  @apply p-5;
+}
+
+#footer {
+  @apply text-sm py-2;
+}
+
+@media (min-width: 640px) {
+  #header {
+    @apply text-5xl;
+  }
+}
